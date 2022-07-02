@@ -8,18 +8,18 @@ int main(void)
 {
 	int c, i, k;
 
-	for (c = '0'; c <= '3'; c++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (i = '0'; i <= '3'; i++)
+		for (i = '0'; i <= '9'; i++)
 		{
-			for (k = '0'; k <= '3'; k++)
+			for (k = '0'; k <= '9'; k++)
 			{
 				if (c < i && i < k)
 				{
 					putchar(c);
 					putchar(i);
 					putchar(k);
-					if (c != '2')
+					if (c != '7')
 					{
 						putchar(',');
 						putchar(' ');
@@ -29,4 +29,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
+	return (0);
 }
