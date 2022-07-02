@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-	int i, c, k;
+	int c, i, k;
 
-	for (i = '0'; i <= '9'; i++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (c = '0'; c <= '9'; c++)
+		for (i = '0'; i <= '9'; i++)
 		{
 			for (k = '0'; c <= '9'; k++)
 			{
 				if (i < c && c < k)
 				{
-					putchar(i);
 					putchar(c);
+					putchar(i);
 					putchar(k);
 					if (i != '7')
 					{
