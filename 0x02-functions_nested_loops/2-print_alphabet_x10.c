@@ -1,21 +1,16 @@
 #include "main.h"
 /**
- * main - check the code
- * return: always (success)
+ * print_alphabet -> print the lower case alphabet
  */
 
 void print_alphabet_x10(void)
 {
-	int count;
-	char letter;
+	int p;
 
-	while (count++ <= 9)
+	for (p = 'a'; p <= 'z'; p++)
 	{
-		for (letter = 'a'; letter <= 'z'; letter++)
-		{
-			_putchar(letter);
-		}
-		
-		_putchar('\n');
+		_putchar(p);
 	}
+
+	_putchar('\n');
 }
