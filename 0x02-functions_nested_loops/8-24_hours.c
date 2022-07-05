@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * Jack_Bauer - print 24 hours of the day starting from minutes, then hours
- * return: aways (success)
+ * Jack_Bauer -> Prints every minute of the day of
+ * Jack Bauer, starting from 00:00 to 23:59.
  */
 void jack_bauer(void)
 {
