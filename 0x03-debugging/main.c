@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * test_positive_or_negative -> test positive or negative,
- *  when given a case of zero
+ * positive_or_negative - check code
+ * @i: print variable
+ * return: 0 always
  */
 void positive_or_negative(int i)
 {
