@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-void postive_or_negative(int i)
+/**
+ * positive_or_negative - check code
+ * @i: print variable
+ * return: always 0
+ */
+void positive_or_negative(int i)
 {
 	int n;
 
@@ -22,22 +26,19 @@ void postive_or_negative(int i)
 	{
 		printf("%d is negative\n", n);
 	}
-
-	return (0); 
+	return (0);
 }
+
 /**
- * main -debugging example
- * return: aways 0
- */
-/**
- * main - tests function that prints if integer is positive or negative
- * Return: 0
+ * main -> tests function that prints if integer is positive or negative
+ * return: 0
  */
 int main(void)
 {
 	int i;
 
-	 i = 0;
-	 positive_or_negative(i);
-	 return (0);
+	i = 0;
+	positive_or_negative(i);
+
+	return (0);
 }
