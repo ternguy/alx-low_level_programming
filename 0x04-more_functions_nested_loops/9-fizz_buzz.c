@@ -4,7 +4,7 @@
  * Return: void
  */
 
-int main(void)
+void fizz_buzz(void)
 {
 	int p = 100;
 	int i;
@@ -29,7 +29,9 @@ int main(void)
 				else
 				{
 					printf("Buzz");
-				}
+				
+				}	
+			}
 				else
 				{
 					printf("%i ", i);
@@ -38,5 +40,6 @@ int main(void)
 		i++;
 	}
 	printf("\n");
+
 	return (0);
 }
