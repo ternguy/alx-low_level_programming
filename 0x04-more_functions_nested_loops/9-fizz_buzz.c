@@ -8,34 +8,35 @@ int main(void)
 	int p = 100;
 	int i;
 
+
 	i = 1;
 	while (i <= p)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			_putchar("FizzBuzz ");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz ");
+			_putchar("Fizz ");
 		}
 		else if (i % 5 == 0)
 		{
 			if (i < p)
 			{
-				printf("Buzz ");
+				_putchar("Buzz ");
 			}
 			else
 			{
-				printf("Buzz");
+				_putchar("Buzz ");
 			}
 			else
 			{
-				printf("%i ", i);
+				_putchar("%i ", i);
 			}
 		}
 		i++;
 	}
-	printf("\n");
+	_putchar("\n");
 	return (0);
 }
