@@ -1,9 +1,9 @@
-#include "main.h"
 #include <stdio.h>
 /**
- * * fizz_buzz -> printing
+ * main - entry point
+ * Return: void
  */
-void fizz_buzz(void)
+int main(void)
 {
 	int x;
 
