@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * main - Entry point.
  * Return: Always 0.
@@ -16,6 +15,6 @@ int main(void)
 			n = n / i;
 		}
 	}
-	printf("%lu\n", n);
+	_putchar("%lu\n", n);
 	return (0);
 }
