@@ -1,9 +1,7 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - entry point
- * Return: void
+ * fizz_buzz -> printing 
  */
-
 void fizz_buzz(void)
 {
 	int p = 100;
@@ -21,25 +19,22 @@ void fizz_buzz(void)
 			printf("Fizz ");
 		}
 		else if (i % 5 == 0)
+		{
+			if (i < p)
 			{
-				if (i < p)
-				{
-					printf("Buzz ");
-				}
-				else
-				{
-					printf("Buzz");
-				
-				}	
+				printf("Buzz ");
 			}
-				else
-				{
-					printf("%i ", i);
-				}
+			else
+			{
+				printf("Buzz");
 			}
+			else
+			{
+				printf("%i ", i);
+			}
+		}
 		i++;
 	}
 	printf("\n");
-
 	return (0);
 }
