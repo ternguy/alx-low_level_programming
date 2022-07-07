@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include <stdio.h>
 /**
  * main - Entry point.
@@ -15,6 +16,6 @@ int main(void)
 			n = n / i;
 		}
 	}
-	printf("%lu\n", n);
+	_putchar("%lu\n", n);
 	return (0);
 }
