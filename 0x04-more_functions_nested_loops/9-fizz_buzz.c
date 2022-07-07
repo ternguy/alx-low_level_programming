@@ -5,24 +5,37 @@
  */
 int main(void)
 {
-	int x;
+	int p = 100;
+	int i;
 
-	for (x = 1; x <= 100; x++)
-		if (x == 100)
-			printf("Buzz");
+	i = 1;
+	while (i <= p)
 	{
-		else if (x % 3 == 0 && x % 5 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
-			prinf("FizzBuzz ");
+			printf("FizzBuzz ");
 		}
-		else if (x % 3 == 0)
+		else if (i % 3 == 0)
 		{
 			printf("Fizz ");
 		}
-		else if (x % 5 == 0)
-			printf("Buzz ")
-		else
-			printf("%d ", x);
+		else if (i % 5 == 0)
+		{
+			if (i < p)
+			{
+				printf("Buzz ");
+			}
+			else
+			{
+				printf("Buzz");
+			}
+			else
+			{
+				printf("%i ", i);
+			}
+		}
+		i++;
 	}
 	printf("\n");
+	return (0);
 }
