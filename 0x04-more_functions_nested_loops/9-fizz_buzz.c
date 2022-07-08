@@ -14,29 +14,29 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			_putchar("FizzBuzz ");
+			printf("FizzBuzz ");
 		}
 		else if (i % 3 == 0)
 		{
-			_putchar("Fizz ");
+			printf("Fizz ");
 		}
 		else if (i % 5 == 0)
 		{
 			if (i < p)
 			{
-				_putchar("Buzz ");
+				printf("Buzz ");
+			}
+			else if
+			{
+				printf("Buzz");
 			}
 			else
 			{
-				_putchar("Buzz ");
-			}
-			else
-			{
-				_putchar("%i ", i);
+			printf("%i ", i);
 			}
 		}
 		i++;
 	}
-	_putchar("\n");
+	printf("\n");
 	return (0);
 }
