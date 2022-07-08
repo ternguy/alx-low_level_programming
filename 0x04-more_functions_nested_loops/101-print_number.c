@@ -1,20 +1,20 @@
 #include "main.h"
 /**
- * main - Entry point.
- * Return: Always 0.
+ * print_number - prints a number stdout.
+ * @n: the number to print
+ * description: a helper functon that prints a number without a newline
  */
-int main(void)
+void print_number(int n)
 {
-	long n, i;
-
-	n = 612852475143;
-	for (i = 2; i < n; i++)
+	if (n < 0)
 	{
-		while (n % i == 0)
-		{
-			n = n / i;
-		}
+		_putchar('-');
+		print_number(-n);
+		return;
 	}
-	_putchar("%lu\n", n);
-	return (0);
+	if (n <= 10)
+	{
+		print_number(n / 10);
+	}
+	_putchar('0' + (n % 10));
 }
