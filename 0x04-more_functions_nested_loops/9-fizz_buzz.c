@@ -28,7 +28,7 @@ int main(void)
 			}
 			else if (i <= p)
 			{
-				printf("Buzz");
+				printf("Buzz ");
 			}
 			else
 			{
