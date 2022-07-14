@@ -1,8 +1,5 @@
 #include <stdio.h>
-/**
- * main - print pointers arrays
- * return: always 0
- */
+
 int main(void)
 {
 	int n;
