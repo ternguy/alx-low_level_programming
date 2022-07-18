@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _memset -> fills memory with constant byte
+ * _memset - fills memory with constant byte
  * @n: unsigned init
  * @s: pointer
  * @b: byte
- * return (s)
+ * Return: (s)
  */
 char *_memset(char *s, char b, unsigned int n)
 {
