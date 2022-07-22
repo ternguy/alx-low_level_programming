@@ -1,11 +1,25 @@
 #include "main.h"
+
 /**
- * add - Adds two integers.
- * @num1: The first integer to be added.
- * @num2: The second integer to be added.
- * Return: The result of the addition.
+
+ * _abs -> return abosolute value of numbers.
+
+ * @n: parameters.
+
+ * Return: absolute value of the number.
+
  */
-int add(int num1, int num2)
+
+int _abs(int n)
+
 {
-	return (num1 + num2);
+
+	if (n >= 0)
+
+	return (n);
+
+	else
+
+	return (-n);
+
 }
