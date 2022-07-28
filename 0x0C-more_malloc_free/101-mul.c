@@ -30,7 +30,7 @@ free(str);
  *  @num: string to multiply
  *  @num_index: last non NULL index of num
  *  @dest: destination of multiplication
- *  dest_index: highest index to start addition
+ *  dest_index - highest index to start addition
  *  Return: pointer to dest, or NULL on failure
  */
 char *mul(char n, char *num, int num_index, char *dest, int dest_index)
