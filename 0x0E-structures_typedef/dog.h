@@ -3,14 +3,8 @@
 
 struct dog
 {
-	char *name[24];
-	char *owner[24];
+	char *name;
+	char *owner;
 	float age;
-};
-int main(void)
-{
-	struct dog poppy;
-	poppy.age = 40;
-	printf("poppy's age is %s\n");
 }
 
