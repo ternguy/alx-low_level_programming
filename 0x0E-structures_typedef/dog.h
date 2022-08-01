@@ -7,4 +7,5 @@ struct dog
 	char *owner;
 	float age;
 };
+struct dog dogs("terdoo", "felix", 28);
 
