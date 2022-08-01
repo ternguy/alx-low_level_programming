@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+
 /**
  * main - print the name of the program compile from,followed by a new line
  * return: 0
