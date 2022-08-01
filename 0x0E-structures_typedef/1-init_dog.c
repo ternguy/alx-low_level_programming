@@ -20,5 +20,5 @@ struct dog
 /**
  * dog_t - typedef for struct dog
  */
-typedef struct dog dog_t("poppy", "Pardic", 4);
+typedef struct dog dog_t($dog_t,"poppy", "Pardic", 4);
 #endif
