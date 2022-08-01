@@ -3,13 +3,14 @@
 
 struct dog
 {
-	char *name;
-	char *owner;
+	char *name[24];
+	char *owner[24];
 	float age;
 };
 int main(void)
 {
-	struct dog dogs;
-	return (0);
+	struct dog poppy;
+	poppy.age = 40;
+	printf("poppy's age is %s\n");
 }
 
