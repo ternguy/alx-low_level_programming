@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct dog
+struct dog dogs
 {
 	char *name;
 	char *owner;
