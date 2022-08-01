@@ -7,8 +7,4 @@ struct dog
 	char *owner;
 	float age;
 };
-int main(void)
-{
-	struct dog dogs;
-	return(0);
-}
+
