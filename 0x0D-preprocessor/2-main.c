@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <string.h>
 /**
- * main - print the name of the program compile from
+ * main - print the name of the program compile from,followed by a new line
  * return: 0
  */
 int main(void)
 {
-	printf("%s\n", _FILE_);
-	return(0);
+	printf("%s\n", __FILE__);
+	return (0);
 }
 
