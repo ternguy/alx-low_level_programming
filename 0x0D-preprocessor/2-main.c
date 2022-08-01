@@ -2,8 +2,8 @@
 
 /**
  * main - print the name of the file the program compile from,
- *  followed by a new line
- * return: always 0.
+ * followed by a new line
+ * return: 0
  */
 int main(void)
 {
