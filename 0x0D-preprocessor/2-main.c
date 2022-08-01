@@ -3,7 +3,7 @@
 /**
  * main - print the name of the file the program compile from,
  * followed by a new line
- * return: 0
+ * Return: return void
  */
 int main(void)
 {
