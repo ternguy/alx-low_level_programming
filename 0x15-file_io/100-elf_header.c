@@ -92,7 +92,6 @@ void print_class(unsigned char *e_ident)
  * @e_ident: A pointer to an array containing the ELF class.
  */
 void print_data(unsigned char *e_ident)
-
 {
 	printf("  Data:                              ");
 
@@ -118,8 +117,7 @@ void print_data(unsigned char *e_ident)
  */
 void print_version(unsigned char *e_ident)
 {
-	printf("  Version:                          %d",
-
+	printf("  Version:                           %d",
 		   e_ident[EI_VERSION]);
 
 	switch (e_ident[EI_VERSION])
@@ -140,7 +138,6 @@ void print_version(unsigned char *e_ident)
 void print_osabi(unsigned char *e_ident)
 {
 	printf("  OS/ABI:                            ");
-
 
 	switch (e_ident[EI_OSABI])
 	{
@@ -245,7 +242,6 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 	else
 		printf("%#lx\n", e_entry);
 }
-
 
 /**
  * close_elf - Closes an ELF file.
