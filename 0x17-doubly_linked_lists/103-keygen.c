@@ -59,7 +59,6 @@ int f5(char *usrn, int len)
  *
  * @usrn: username
  * Return: a random char
-
  */
 int f6(char *usrn)
 {
